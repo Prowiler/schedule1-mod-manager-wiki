@@ -29,14 +29,14 @@ The Mod Manager & Phone App provides:
 ---
 
 ## 📜 License
-This mod is distributed under a **custom license**. Please review the [LICENSE.md](LICENSE.md) file for full terms and conditions.
+This mod is distributed under a **custom license**. Please review the [LICENSE.md](../../wiki/LICENSE) file for full terms and conditions.
 
 ---
 
 ## 🔗 Quick Links
 - **[Developer Wiki](../../wiki)**: Essential for mod integration.
 - **[Nexus Mods Page](https://www.nexusmods.com/schedule1/mods/397)**: Download the mod, user discussions, and official releases.
-- **[LICENSE](LICENSE.md)**: Usage terms.
+- **[LICENSE](../../wiki/LICENSE)**: Usage terms.
 
 For user support, feedback, or bug reports related to the Mod Manager & Phone App itself, please use the [Nexus Mods Page](https://www.nexusmods.com/schedule1/mods/397). For issues related to the developer documentation or integration API, feel free to open an issue in this repository.
 
