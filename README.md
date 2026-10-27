@@ -2,7 +2,7 @@
 
 A mod manager for **Schedule I** that runs inside the game, in the main menu and as an app on your in-game phone. Browse and install mods from Nexus Mods, keep them up to date, change their settings, and see at a glance when something is wrong.
 
-![Dashboard](https://raw.githubusercontent.com/wiki/Prowiler/schedule1-mod-manager-wiki/images/dashboard.png)
+![Dashboard](https://raw.githubusercontent.com/wiki/Prowiler/schedule1-mod-manager-wiki/images/dashboard-plain.png)
 
 **Download:** [Nexus Mods](https://www.nexusmods.com/schedule1/mods/397). One download for the IL2CPP and Mono versions of the game (MelonLoader 0.7).
 
