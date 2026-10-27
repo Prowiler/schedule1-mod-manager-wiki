@@ -1,43 +1,41 @@
-# Mod Manager & Phone App
+# Mod Manager & Phone App 3
 
-Welcome to the **Mod Manager & Phone App** repository for the game **Schedule I**! 🎮
+A mod manager for **Schedule I** that runs inside the game, in the main menu and as an app on your in-game phone. Browse and install mods from Nexus Mods, keep them up to date, change their settings, and see at a glance when something is wrong.
 
-This repository primarily hosts the **Developer Documentation Wiki** for mod creators looking to integrate their mods with the **Mod Manager & Phone App**.
+![Dashboard](https://raw.githubusercontent.com/wiki/Prowiler/schedule1-mod-manager-wiki/images/dashboard.png)
 
----
+**Download:** [Nexus Mods](https://www.nexusmods.com/schedule1/mods/397). One download for the IL2CPP and Mono versions of the game (MelonLoader 0.7).
 
-## 📚 Documentation & Guides (For Mod Developers)
+## Documentation
 
-All detailed documentation, including integration steps, handling dynamic settings updates, API details, and known issues, is available in the **[GitHub Wiki](../../wiki)**.
+Everything is in the **[wiki](../../wiki)**.
 
-### 👉 **[Visit the Developer Wiki](../../wiki)**
+**Players**
+- [Installation](../../wiki/Installation): install, update from 2.x, uninstall
+- [Features](../../wiki/Features): Dashboard, My mods, Explore, Updates, Profiles, Security, the phone app
+- [Nexus account](../../wiki/Nexus-Account): connect your account, Free and Premium
+- [Security](../../wiki/Security): the startup check and what its messages mean
+- [Troubleshooting](../../wiki/Troubleshooting): common problems and how to report a bug
 
-The Wiki covers essential information for ensuring your mod's settings are correctly displayed and configurable using this tool.
+**Mod authors**
+- [Getting started](../../wiki/Mod-Authors): your settings in Mod Manager, with or without the API
+- [Settings and types](../../wiki/Settings-And-Types): which setting type gets which editor
+- [API reference](../../wiki/API-Reference): events, layout, buttons, problems
+- [Migrating from 2.x](../../wiki/Migrating-From-2): what changed for existing integrations
 
----
+## What it does
 
-## 🌟 Core Features
-The Mod Manager & Phone App provides:
-- **Main Menu Management**:
-    - **Mods Tab**: Enable/disable mods (.dll <-> .dll.disabled). *Requires game restart.*
-    - **Config Tab**: View and configure settings for **all** registered mods, or filter by a specific mod, directly from the main menu. Includes Save/Reset functionality.
-- **In-Game Phone App**: A dedicated phone app interface ("Settings") for users to configure compatible mod settings interactively *during* gameplay.
-- **Expanded Settings Support**: Includes UI controls for common types like Booleans, Numbers, Strings, KeyCodes, Enums (Dropdowns), and Colors (Sliders/Input/Preview).
-- **Separate Save Events**: Distinct events are fired when saving from the Phone App vs. the Main Menu Config panel, allowing mods to react accordingly.
-- **Dynamic Update Support**: An event system allows mods to apply setting changes live without requiring a game restart (if implemented by the mod).
+- **Dashboard**: the health of your setup, problems with an explanation and a fix, updates, changes waiting for a restart.
+- **My mods**: every installed mod with its settings, Nexus page, versions, dependencies and files. Turn mods on or off, remove them, edit their settings or their JSON files.
+- **Explore**: browse Nexus Mods for Schedule I and install with one click (Premium) or through the Nexus website (free accounts).
+- **Updates and Profiles**: update one or all mods; save your setup and switch between setups.
+- **Security**: every mod file is checked before it loads; risky files are turned off until you decide.
+- **Phone app**: the same window on your in-game phone.
 
----
+## Support
 
-## 📜 License
-This mod is distributed under a **custom license**. Please review the [LICENSE.md](../../wiki/LICENSE) file for full terms and conditions.
+Questions and bug reports: the **Posts** and **Bugs** tabs on the [Nexus page](https://www.nexusmods.com/schedule1/mods/397). Problems with this documentation can be reported as an issue in this repository.
 
----
+## License
 
-## 🔗 Quick Links
-- **[Developer Wiki](../../wiki)**: Essential for mod integration.
-- **[Nexus Mods Page](https://www.nexusmods.com/schedule1/mods/397)**: Download the mod, user discussions, and official releases.
-- **[LICENSE](../../wiki/LICENSE)**: Usage terms.
-
-For user support, feedback, or bug reports related to the Mod Manager & Phone App itself, please use the [Nexus Mods Page](https://www.nexusmods.com/schedule1/mods/397). For issues related to the developer documentation or integration API, feel free to open an issue in this repository.
-
-Happy modding! 🚀
+Mod Manager & Phone App is distributed under a custom license; see [LICENSE](../../wiki/LICENSE).
